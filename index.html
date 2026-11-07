@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <meta lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport",
+        content="width=device-width, initial-scale=1.0">
+        <title>Lumen University</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h2>Lumen University</h2>
+                <p>Dream • Learn • Grow</p>
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#departments">Departments</a>
+                <a href="#programs">Programs</a>
+                <a href="#admissions">Admissions</a>
+            </nav>
+            <a href="#" class="portal-btn">Student Portal</a>
+        </header>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="hero-tag">✧ YOUR FUTURE STARTS HERE</span>
+                <h1>Discover Your
+                    <span>Brightest</span>
+                    Future.
+                </h1>
+                <p class="hero-description">
+                    Where curiosity meets opportunity. Discover your potential,
+    explore new ideas, and build a future that inspires you.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#programs" class="primary-btn">Explore Programs</a>
+                    <a href="#about" class="secondary-btn">Discover Lumen</a>
+                </div>
+                <button id="welcomeBtn" class="welcome-btn">Say Hello ✧</button>
+<p id="welcomeMessage"></p>
+            </div>
+            <div class="hero-image">
+                <img src="images/campus.jpg" alt="Lumen University campus">
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about-content">
+                <span class="section-tag">✧ GET TO KNOW US</span>
+                <h2>A Place to Learn, Grow & Shine.</h2>
+                <p class="aout-description">
+                     At Lumen University, we believe education is more than
+    earning a degree. It's about discovering who you are,
+    developing your talents, and creating opportunities
+    that shape a brighter tomorrow.
+                </p>
+                <div class="about-highlights">
+
+    <div class="highlight">
+        <h3>15+</h3>
+        <p>Academic Programs</p>
+    </div>
+
+    <div class="highlight">
+        <h3>5</h3>
+        <p>Dedicated Departments</p>
+    </div>
+
+    <div class="highlight">
+        <h3>100%</h3>
+        <p>Growth Mindset</p>
+    </div>
+
+</div>
+            </div>
+            <div class="about-image">
+                <img src="images/university.jpg" alt="Lumen University learning environment">
+            </div>
+        </section>
+        <section id="departments" class="departments">
+            <div class="section-heading">
+    <span class="section-tag">✧ FIND YOUR PATH</span>
+    <h2>Explore Our Departments</h2>
+    <p>Discover the fields that inspire you and find where your future begins.</p>
+    </div>
+    <ul class="department-grid">
+        <li class="department-card">
+            <span class="department-icon">✧</span>
+            <h3>Computer Science & AI</h3>
+            <p>Explore technology, intelligent systems, programming, and the future of innovation.</p>
+        </li>
+        <li class="department-card">
+            <span class="department-icon">✧</span>
+            <h3>Business & Management</h3>
+            <p>Develop leadership, communication, and entrepreneurial skills to shape the world of business.</p>
+        </li>
+        <li class="department-card">
+            <span class="department-icon">✧</span>
+            <h3>Engineering & Technology</h3>
+            <p>Turn creative ideas into practical solutions through engineering, design, and innovation.</p>
+        </li>
+        <li class="department-card">
+            <span class="department-icon">✧</span>
+            <h3>Arts & Humanities</h3>
+            <p>Explore creativity, culture, literature, and the ideas that shape human expression.</p>
+        </li>
+       <li class="department-card">
+            <span class="department-icon">✧</span>
+            <h3>Health & Life Sciences</h3>
+            <p>Discover the science of life, human wellbeing, healthcare, and the world around us.</p>
+        </li>
+    </ul>
+</div>
+        </section>
+        <section id="programs" class="programs">
+    <div class="section-heading">
+        <span class="section-tag">✧ SHAPE YOUR FUTURE</span>
+        <h2>Our Academic Programs</h2>
+        <p>Find the degree that matches your interests and ambitions.</p>
+    </div>
+    <div class="program-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Program Name</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BS Computer Science</td>
+                    <td>4 Years</td>
+                </tr>
+                <tr>
+                    <td>BS Artificial Intelligence</td>
+                    <td>4 Years</td>
+                </tr>
+                <tr>
+                    <td>Bachelor of Business Administration</td>
+                    <td>4 Years</td>
+                </tr>
+                <tr>
+                    <td>BS Psychology</td>
+                    <td>4 Years</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<section id="admissions" class="admissions">
+    <div class="section-heading">
+        <span class="section-tag">✧ YOUR JOURNEY BEGINS</span>
+        <h2>Begin Your Lumen Journey</h2>
+        <p>Take the first step towards your future. Apply to Lumen University!</p>
+    </div>
+    <div class="admission-form">
+    <form>
+        <div class="form-group">
+    <label for="fullName">Full Name</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+</div>
+<div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+</div>
+<div class="form-group">
+    <label for="contact">Contact Number</label>
+    <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+</div>
+<div class="form-group">
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender" required>
+        <option value="">Select Your Gender</option>
+        <option value="female"> Female </option>
+        <option value="male">Male</option>
+         <option value="other">Other</option>
+         <option value="prefer-not-to-say">Prefer not to say</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="program">Select Your Program</label>
+    <select id="program" name="program" required>
+        <option value="">Choose a Program</option>
+        <option value="computer-science">BS Computer Science</option>
+        <option value="artificial-intelligence">BS Artificial Intelligence</option>
+         <option value="business">Bachelor Of Business Administration </option>
+         <option value="psychology">BS Psychology</option>
+         </select>
+    </div>
+    <button type="submit" class="submit-btn">Submit Application</button>
+    <p id="submissionMessage"></p>
+    </form>
+</div>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-brand">
+            <h2>Lumen University</h2>
+            <p>Dream • Learn • Grow</p>
+            <span>Inspiring minds. Shaping futures.</span>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#departments">Departments</a>
+                <a href="#programs">Programs</a>
+                <a href="#admissions">Admissions</a>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Lumen University. All rights reserved.</p>
+                <p>Made with ✧ for a brighter future.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+        <script src="script.js"></script>
+    </body>
+</html>
